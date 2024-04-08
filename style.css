@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  margin: 0;
+  height: 100%;
+  font-size: 16px;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+}
+
+button {
+  background-color: hsl(47, 88%, 63%);
+  font-weight: 800;
+  border-style: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1f314f;
+  margin: 0;
+
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding:12px 0;
+}
+
+a {
+  text-decoration: none;
+}
+.flex-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-img {
+  height: 200px;
+  max-width: 279px;
+  background-image: url("assets/images/illustration-article.svg");
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.link:hover h1 {
+  color: hsl(47, 88%, 63%);
+  text-decoration: none;
+}
+#card {
+  min-height: 497px;
+  width: 327px;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 20px;
+  box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+
+#card--content {
+  width: 279px;
+  padding: 24px;
+}
